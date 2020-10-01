@@ -1,0 +1,220 @@
+body{
+    background-color: #18121E;
+    text-align: center;
+}
+
+nav{               
+    margin-bottom: 1em;
+    margin-top: -10px;
+    text-align: center;
+    background-color: #18121E;
+}
+
+.itemMenu{      
+    background-color: #18121E;        
+    color: white;
+    font-size: large;
+    padding: 10px;      
+    width: 100%;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: -1px;
+    border-radius: 10px;
+ }
+
+
+.itemMenu:hover{ 
+    background-color: #df4102;
+}
+
+.container{
+    border: 0px;
+    width: 100%;
+    text-align: center;      
+}
+
+.corpo{
+    background-color: #df4102;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    height: 80%;
+    margin-bottom: 10%;
+}
+
+.corpo2{
+    background-color: #df4102;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    height: 80%;
+    margin-bottom: 10%;
+}
+
+.jogador{
+    padding: 7px;
+}
+
+.titulo{
+    color: white;
+    padding: 2px;
+}
+
+.col-50{
+    width: 49%;
+    display: inline-block;
+}
+
+.col-33{
+    width: 30%;
+    background-color: #18121E;     
+    display: inline-block;
+}
+
+.col-75{
+    width: 75%;      
+    display: inline-block;
+}
+
+*{ 
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+}
+
+input{
+    padding:8px;
+    border:1px solid #ccc;
+    width: 70%;
+    height: 22px;
+    border-radius: 4px;
+}
+
+label{
+    font-family: Arial;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+}
+
+#banner {
+    background-position: center;
+    height: 420px;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+} 
+
+footer {           
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #18121E;
+    color: white;
+    padding-bottom: 1%;
+}
+
+#sla { 
+    background-color: #df4102;
+    border-radius: 10px;
+}
+
+.linha{
+    border: 0px;
+    width: 100%;
+    text-align: center;           
+}
+
+.nome{
+    display: inline-block;
+    width: 40%;
+}
+
+.email{
+    display: inline-block;
+    width: 40%;
+}
+
+.card{
+    height: 40%;
+    border-radius: 5%;
+    background-color: black;
+    margin: 6px;
+}
+
+.cardIMG{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+#time{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+#timeIN{
+    width: 70%;
+}
+
+@media screen and (max-width: 590px) {
+    .col-33{
+        width: 100%;
+    }
+
+    #banner{
+        height: 200px;
+    }
+
+    .nome{
+        width: 70%;
+    }
+
+    .email{
+        width: 70%;
+    }
+
+    .corpo{
+        width: 98%;
+    }
+
+    .card{
+        width: 90%;
+    }
+}
+
+.button {
+    background-color: #18581a; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #18581a;
+}
+  
+.button1:hover {
+    background-color: #18581a;
+    color: white;
+}
